@@ -1,0 +1,16 @@
+{
+  "name": "basilica-main",
+  "version": "1.0.0",
+  "description": "Recipes",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --directory --server 'app' --files 'app'"
+  },
+  "author": "Daniel",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "prettier": "^2.5.1",
+    "sass": "^1.49.8"
+  }
+}
